@@ -1,196 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      .skills {
+        padding: 0 1rem 1rem 1rem;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <style>
-    .skills {
-      padding: 0 1rem 1rem 1rem;
-    }
+      .languages {
+        padding: 0 1rem 1rem 1rem;
+      }
 
-    .languages {
-      padding: 0 1rem 1rem 1rem;
-    }
+      .skills p {
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem !important;
+      }
 
-    .skills p {
-      margin-top: .3rem;
-      margin-bottom: .3rem !important;
-    }
+      .languages p {
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem !important;
+      }
+    </style>
+  </head>
 
-    .languages p {
-      margin-top: .3rem;
-      margin-bottom: .3rem !important;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    <div class="row mt-5">
-      <div class="col-sm-4 rounded me-1 shadow bg-body px-0 border">
-        <div class="bg-img rounded"
-          style="background-image: url(WhatsApp\ Image\ 2022-02-14\ at\ 4.52.49\ PM.jpeg); width:100%;margin:0;height:15rem;background-size: cover;position: relative;">
-          <h3 style="position: absolute;bottom: 0;left: 5px;color:rgb(0, 0, 0)">Shehab khallaf</h3>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-sm-4 rounded me-1 shadow bg-body px-0 border">
+          <div
+            class="bg-img rounded"
+            style="
+              background-image: url(WhatsApp\ Image\ 2022-02-14\ at\ 4.52.49\ PM.jpeg);
+              width: 100%;
+              margin: 0;
+              height: 15rem;
+              background-size: cover;
+              position: relative;
+            "
+          >
+            <h3
+              style="
+                position: absolute;
+                bottom: 0;
+                left: 5px;
+                color: rgb(0, 0, 0);
+              "
+            >
+              Shehab khallaf
+            </h3>
+          </div>
+          <div class="information mt-4">
+            <div class="info d-flex ms-3 mt-3">
+              <i
+                class="fas fa-briefcase mt-1 me-3"
+                style="color: rgb(18, 167, 142)"
+              ></i>
+              <p>Frontend Developer</p>
+            </div>
+            <div class="info d-flex ms-3">
+              <i
+                class="fas fa-home mt-1 me-3"
+                style="color: rgb(18, 167, 142)"
+              ></i>
+              <p>Cairo ,Egypt</p>
+            </div>
+            <div class="info d-flex ms-3">
+              <i
+                class="fas fa-envelope mt-1 me-3"
+                style="color: rgb(18, 167, 142)"
+              ></i>
+              <p>shehabkhallaf122@gmail.com</p>
+            </div>
+            <div class="info d-flex ms-3">
+              <i
+                class="fas fa-phone-alt mt-1 me-3"
+                style="color: rgb(18, 167, 142)"
+              ></i>
+              <p>+201015222800</p>
+            </div>
+          </div>
+          <div class="skills mt-4">
+            <div class="d-flex">
+              <i
+                class="fas fa-sun mt-1 me-2"
+                style="color: rgb(18, 167, 142)"
+              ></i>
+              <h5>Skills</h5>
+            </div>
+            <p>HTML5</p>
+            <div class="progress mb-0 pb-0" style="height: 1rem">
+              <div
+                class="progress-bar mt-0 pt-0"
+                role="progressbar"
+                style="width: 100%; background-color: rgb(18, 167, 142)"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                100%
+              </div>
+            </div>
+            <p>CSS3</p>
+            <div class="progress" style="height: 1rem">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 100%; background-color: rgb(18, 167, 142)"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                100%
+              </div>
+            </div>
+            <p>JavaScript</p>
+            <div class="progress" style="height: 1rem">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 80%; background-color: rgb(18, 167, 142)"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                80%
+              </div>
+            </div>
+            <p>Reacte</p>
+            <div class="progress" style="height: 1rem">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 70%; background-color: rgb(18, 167, 142)"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                70%
+              </div>
+            </div>
+          </div>
+          <div class="languages mt-4 mb-4">
+            <div class="d-flex">
+              <i
+                class="fas fa-globe-americas mt-1 me-2"
+                style="color: rgb(18, 167, 142)"
+              ></i>
+              <h5>languages</h5>
+            </div>
+            <p>Arabic</p>
+            <div class="progress" style="height: 1rem">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 100%; background-color: rgb(18, 167, 142)"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p>English</p>
+            <div class="progress" style="height: 1rem">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 80%; background-color: rgb(18, 167, 142)"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="skills mt-4">
+            <div class="d-flex">
+              <i
+                class="fas fa-sun mt-1 me-2"
+                style="color: rgb(18, 167, 142)"
+              ></i>
+              <h5>Skills</h5>
+            </div>
+            <p>• Excellent communication skills.</p>
+            <p>• Problem-solving.</p>
+            <p>• Time Management.</p>
+            <p>• Teamwork Skills.</p>
+            <p>• Quick Learner.</p>
+            <p>• Negotiation Skills.</p>
+            <p>• Microsoft office</p>
+          </div>
         </div>
-        <div class="information">
-          <div class="info d-flex ms-3 mt-3">
-            <i class="fas fa-briefcase mt-1 me-3" style="color:rgb(18, 167, 142)"></i>
-            <p>Frontend Developer</p>
+        <div class="col-sm-7 rounded ms-1">
+          <div class="rounded shadow p-3 border">
+            <div class="d-flex">
+              <i
+                class="fas fa-sun mt-1 me-2"
+                style="color: rgb(18, 167, 142)"
+              ></i>
+              <h5>Summary</h5>
+            </div>
+            <p>
+              A self-motivated, creative, and ambitious IT professional seeks to
+              join the team. in the position of Frontend Developer to make a
+              direct impact on the company’s business. knowledge of HTml5 ,CSS3
+              ,Bootstrap ,JQuery ,SASS JavaScript UI technologies – JSON, AJAX,
+              Angular, and creating RESTful web services.
+            </p>
           </div>
-          <div class="info d-flex ms-3">
-            <i class="fas fa-home mt-1 me-3" style="color:rgb(18, 167, 142)"></i>
-            <p>Cairo ,Egypt</p>
+          <div class="rounded shadow p-3 border mt-2">
+            <div class="d-flex">
+              <i
+                class="fas fa-sun mt-1 me-2"
+                style="color: rgb(18, 167, 142)"
+              ></i>
+              <h5>Education</h5>
+            </div>
+            <div class="education d-flex">
+              <i
+                class="fas fa-address-card mt-1 me-2"
+                style="color: rgb(64, 143, 130)"
+              ></i>
+              <p class="fw-bold" style="color: rgb(64, 143, 130)">2021</p>
+            </div>
+            <p class="mp-0 fs-5 fw-bold">Information Technology Institute</p>
+            <p>
+              • Full stack web development using MEARN (HTML5, CSS3, Javascript,
+              ES6, SASS, JASON, AJAX, Git, Github, Angular, React, Typescript,
+              NodeJS, Express, Mongo DB)
+            </p>
+            <div class="education d-flex mb-0">
+              <i
+                class="fas fa-address-card mt-1 me-2"
+                style="color: rgb(64, 143, 130)"
+              ></i>
+              <p class="fw-bold" style="color: rgb(64, 143, 130)">2021</p>
+            </div>
+            <p class="mp-0 fs-5 fw-bold">Route Academy</p>
+            <p>
+              • Front-End web development (HTML5, CSS3, Bootstrap, JavaScript,
+              ES6, jQuery, SASS, JASON, AJAX, angular, Typescript)
+            </p>
+            <div class="education d-flex mb-0">
+              <i
+                class="fas fa-address-card mt-1 me-2"
+                style="color: rgb(64, 143, 130)"
+              ></i>
+              <p class="fw-bold" style="color: rgb(64, 143, 130)">Forever</p>
+            </div>
+            <p class="fs-5 fw-bold mp-0">W3schools.com</p>
+            <p>Web Devloper All I need to know in one place</p>
           </div>
-          <div class="info d-flex ms-3">
-            <i class="fas fa-envelope mt-1 me-3" style="color:rgb(18, 167, 142)"></i>
-            <p>shehabkhallaf122@gmail.com</p>
-          </div>
-          <div class="info d-flex ms-3">
-            <i class="fas fa-phone-alt mt-1 me-3" style="color:rgb(18, 167, 142)"></i>
-            <p>+201015222800</p>
-          </div>
-        </div>
-        <div class="skills mt-4">
-          <div class="d-flex">
-            <i class="fas fa-sun mt-1 me-2" style="color:rgb(18, 167, 142)"></i>
-            <h5>Skills</h5>
-          </div>
-          <p>HTML5</p>
-          <div class="progress mb-0 pb-0" style="height: 1rem;">
-            <div class="progress-bar mt-0 pt-0" role="progressbar"
-              style="width: 100%;background-color:rgb(18, 167, 142)" aria-valuenow="100" aria-valuemin="0"
-              aria-valuemax="100">100%</div>
-          </div>
-          <p>CSS3</p>
-          <div class="progress" style="height: 1rem;">
-            <div class="progress-bar" role="progressbar" style="width: 100%; background-color:rgb(18, 167, 142)"
-              aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-          </div>
-          <p>JavaScript</p>
-          <div class="progress" style="height: 1rem;">
-            <div class="progress-bar" role="progressbar" style="width: 90%;background-color:rgb(18, 167, 142)"
-              aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
-          </div>
-          <p>Reacte</p>
-          <div class="progress" style="height: 1rem;">
-            <div class="progress-bar" role="progressbar" style="width: 80%;background-color:rgb(18, 167, 142)"
-              aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-          </div>
-        </div>
-        <div class="languages mt-4 mb-4">
-          <div class="d-flex ms-3">
-            <i class="fas fa-globe-americas mt-1 me-2" style="color:rgb(18, 167, 142)"></i>
-            <h5>languages</h5>
-          </div>
-          <p>Arabic</p>
-          <div class="progress" style="height: 1rem;">
-            <div class="progress-bar" role="progressbar" style="width: 100%; background-color:rgb(18, 167, 142)"
-              aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <p>English</p>
-          <div class="progress" style="height: 1rem;">
-            <div class="progress-bar" role="progressbar" style="width: 80%; background-color:rgb(18, 167, 142)"
-              aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <p>German</p>
-          <div class="progress" style="height: 1rem;">
-            <div class="progress-bar" role="progressbar" style="width: 30%; background-color:rgb(18, 167, 142)"
-              aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="rounded shadow p-3 mt-2 border">
+            <div class="works d-flex rounded mb-3">
+              <i
+                class="fas fa-suitcase mt-1 me-2"
+                style="color: rgb(64, 143, 130)"
+              ></i>
+              <h5>Personal Projects</h5>
+            </div>
+            <div>
+              <h5>Real State Web</h5>
+              <a
+                href="https://www.mostakar.com"
+                target="_blank"
+                class="text-decoration-none"
+                ><h5>WWW.MOSTAKAR.COM</h5></a
+              >
+              <p class="mt-3">
+                Mostakar is A Turkish company specializing in real estate and
+                legal consultancy in property ownership and real estate
+                investment represents in (apartments, villas) headquartered in
+                the heart of Istanbul Shishli region, we offer you a cadre of
+                real estate consultants that exceed their experience in the
+                Turkish real estate field for more than five years and qualified
+                and authorized to provide professional real estate consultancy
+                to our valued customers
+              </p>
+            </div>
+            <div>
+              <h5>Agoda</h5>
+              <h5>Github Repositories</h5>
+              <h5>https://github.com/HotelTransylvaniaa/TestCode</h5>
+              <p class="mt-3">
+                
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-7 rounded ms-1">
-        <div class="rounded shadow p-3 mb-1 border">
-          <div class="works d-flex rounded">
-            <i class="fas fa-suitcase mt-1 me-2" style="color:rgb(64, 143, 130)"></i>
-            <h5>Work Experience</h5>
+      <div class="row">
+        <div
+          class="col-11 text-center mt-2 mb-5 pt-2 shadow rounded text-light"
+          style="background-color: rgb(18, 167, 142)"
+        >
+          <p>Find me on social media</p>
+          <div class="d-flex justify-content-center m-3">
+            <i class="fab fa-facebook-square m-1"></i>
+            <i class="fab fa-instagram m-1"></i>
+            <i class="fab fa-twitter-square m-1"></i>
+            <i class="fab fa-linkedin m-1"></i>
           </div>
-          <div class="Experience">
-            <div class="work">
-              <h6>Frontend Developer</h6>
-              <div class="d-flex">
-                <i class="fas fa-address-card mt-2 me-2" style="color:rgb(64, 143, 130)"></i>
-                <p class="m-1" style="color:rgb(64, 143, 130)">jan 2022 - </p>
-                <p class="ms-1 rounded pb-1 ps-1 pe-1"
-                  style="border: 1px solid rgb(64, 143, 130);background-color:rgb(64, 143, 130);">current</p>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, sed eveniet vel adipisci atque omnis
-                consectetur fuga deleniti corrupti nobis!</p>
-            </div>
-            <div class="work">
-              <h6>UI/UX Developer</h6>
-              <div class="d-flex">
-                <i class="fas fa-address-card mt-2 me-2" style="color:rgb(64, 143, 130)"></i>
-                <p class="m-1" style="color:rgb(64, 143, 130);">jan 2020 - </p>
-                <p class="ms-1 rounded pb-1 ps-1 pe-1 pt-1" style="color:rgb(64, 143, 130);">2021</p>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, sed eveniet vel adipisci atque omnis
-                consectetur fuga deleniti corrupti nobis!</p>
-            </div>
-            <div class="work">
-              <h6>UI/UX Desgin</h6>
-              <div class="d-flex">
-                <i class="fas fa-address-card mt-2 me-2" style="color:rgb(64, 143, 130)"></i>
-                <p class="m-1" style="color:rgb(64, 143, 130);">jan 2019 - </p>
-                <p class="ms-1 rounded pb-1 ps-1 pe-1 pt-1" style="color:rgb(64, 143, 130);">2020</p>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, sed eveniet vel adipisci atque omnis
-                consectetur fuga deleniti corrupti nobis!</p>
-            </div>
-          </div>
-        </div>
-        <div class="rounded shadow p-3 mt-1 border">
-          <div class="d-flex">
-            <i class="fas fa-sun mt-1 me-2" style="color:rgb(18, 167, 142)"></i>
-            <h5>Education</h5>
-          </div>
-          <p class="mt-3 mp-0">W3schools.com</p>
-          <div class="education d-flex mb-0">
-            <i class="fas fa-address-card mt-1 me-2" style="color:rgb(64, 143, 130)"></i>
-            <p style="color:rgb(64, 143, 130)">Forever</p>
-          </div>
-          <p>Web Devloper All I need to know in one place</p>
-          <p class="mt-3 mp-0">Information Technology Institute</p>
-          <div class="education d-flex mb-0">
-            <i class="fas fa-address-card mt-1 me-2" style="color:rgb(64, 143, 130)"></i>
-            <p style="color:rgb(64, 143, 130)">2021</p>
-          </div>
-          <p>Full Stack Web Development using MEARN</p>
-          <p class="mt-3 mp-0">Route</p>
-          <div class="education d-flex mb-0">
-            <i class="fas fa-address-card mt-1 me-2" style="color:rgb(64, 143, 130)"></i>
-            <p style="color:rgb(64, 143, 130)">2021</p>
-          </div>
-          <p>Frontend Web Devlopment</p>
+          <p>powered by <a href="#"> w3.css</a></p>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-11 text-center mt-2 mb-5 pt-2 shadow rounded text-light" style="background-color:rgb(18, 167, 142)">
-        <p>Find me on social media</p>
-        <div class="d-flex justify-content-center m-3">
-          <i class="fab fa-facebook-square m-1"></i>
-          <i class="fab fa-instagram m-1"></i>
-          <i class="fab fa-twitter-square m-1"></i>
-          <i class="fab fa-linkedin m-1"></i>
-        </div>
-        <p>powered by <a href="#"> w3.css</a></p>
-      </div>
-    </div>
-  </div>
-  
-  
 
-
-
-
-  <script src="js/all.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-</body>
-
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
